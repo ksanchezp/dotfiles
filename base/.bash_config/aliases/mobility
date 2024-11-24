@@ -4,3 +4,6 @@ alias ....='cd ../../../../'
 alias .4='cd ../../../../'
 alias .....='cd ../../../../'
 alias .5='cd ../../../../..'
+
+# Create la command to see hidden files
+alias la='ll -la'
