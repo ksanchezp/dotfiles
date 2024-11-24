@@ -51,6 +51,12 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 
 # NVM, NPM and Node
 brew install nvm
+
+# add to PATH, required by homebrew
+export NVM_DIR="${HOME}/.nvm"
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion
+
 nvm install 20
 nvm install 22
 nvm alias default 22
@@ -62,7 +68,7 @@ brew install --cask intellij-idea-ce webstorm visual-studio-code phpstorm
 brew install --cask fork
 
 # Browsers
-brew install --cask chrome firefox
+brew install --cask google-chrome firefox
 
 # Docker
 brew install --cask docker
