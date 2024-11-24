@@ -1,0 +1,28 @@
+## VARIABLES
+
+# Change this value to your project workspace (where you have all your projects)
+export WORKSPACE_PATH="${HOME}/proyectos"
+
+# QA projects
+export QA_API_PATH="${WORKSPACE_PATH}/qa-api"
+export QA_WEB_PATH="${WORKSPACE_PATH}/qa-web"
+export QA_CORE_PATH="${WORKSPACE_PATH}/qa-core"
+
+
+## ALIASES
+
+# Common directories
+alias proyectos="cd ${WORKSPACE_PATH}"
+alias home="cd ${HOME}" # You can also just execute 'cd', but this is more fun
+alias documentos="cd ${HOME}/Documents"
+alias bin="cd ${HOME}/bin"
+
+# QA projects
+alias qa-api="cd ${QA_API_PATH}"
+alias qa-web="cd ${QA_WEB_PATH}"
+alias qa-core="cd ${QA_CORE_PATH}"
+# ... You can add other projects here
+
+# Other projects
+alias web="cd ${WORKSPACE_PATH}/web"
+# ... You can add other projects here

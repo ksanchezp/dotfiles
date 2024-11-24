@@ -1,0 +1,6 @@
+# Improve cd command
+alias ...='cd ../../../'
+alias ....='cd ../../../../'
+alias .4='cd ../../../../'
+alias .....='cd ../../../../'
+alias .5='cd ../../../../..'

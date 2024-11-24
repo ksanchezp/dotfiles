@@ -1,0 +1,5 @@
+# Default ignored files, place here your own folders/files
+ignored/
+*_ignored
+.DS_Store
+**/*pruebita*

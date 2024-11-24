@@ -1,0 +1,13 @@
+# Update your session after making changes in any of these files without restarting the session
+alias updateZsh="source ${HOME}/.zshrc"
+
+# Open zsh configuration
+alias zshrc="nano ${HOME}/.zshrc"
+alias zim="nano ${HOME}/.zimrc"
+
+# Because not everything needs to be serious
+alias please="sudo"
+alias fucking="sudo"
+
+# Trash
+alias clearTrash="rm -rf ${HOME}/.local/share/Trash"

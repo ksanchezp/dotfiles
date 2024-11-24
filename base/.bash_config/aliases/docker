@@ -1,0 +1,3 @@
+# Docker
+alias enableDocker="sudo systemctl enable docker"
+alias disableDocker="sudo systemctl disable docker"
